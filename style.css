@@ -1,0 +1,90 @@
+body{
+    background-color:black;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Montserrat";
+    
+}
+
+h1{
+    margin-top: 20px;
+    transition: none;
+}
+
+#timer {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #777777;
+}
+
+#score {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #777777;
+}
+
+#piece{
+    background-color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    height:0;
+    width:0;
+    border-radius:50%;
+    border: none;
+}
+
+#piece:hover{
+    cursor:pointer;
+}
+
+
+.countdown{
+    font-size:600%;
+    font-weight:700;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#countdown{
+    transition: all 0.25s;
+}
+
+
+.startGameButton{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#startGameButton{
+    background-color:rgba(40,40,40);
+    color:white;
+    font-family: "Montserrat";
+    font-weight:500;
+    font-size: 1.2em;
+    border:none;
+    border-radius: 25px;
+    padding:20px;
+    transition: all 0.25s;
+}
+#startGameButton:hover{
+    transform: scale(0.95);
+    cursor:pointer;
+}
+
+footer p {
+    margin-top:45%;
+    font-size:large;
+    transition: none;
+}
